@@ -58,7 +58,7 @@
 </head>
 <body>
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-10 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 lg:pt-32">
+        <div class="py-10 px-4 mx-auto max-w-screen-xl sm:py-20 lg:px-6 lg:pt-32">
             <div class="grid text-left md:grid-cols-2 gap-12">
                 <div class="mr-auto place-self-center">
                     <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Defensibility Maximization</h1>
@@ -73,10 +73,10 @@
         </div>
     </section>
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-20 lg:px-6">
             <div class="grid text-left md:grid-cols-2 gap-12">
                 <div>
-                    <h3 class="mb-8 pt-5 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Agenda</h2>                   
+                    <h3 class="mb-8 pt-5 text-2xl font-medium text-gray-900 dark:text-white">Agenda</h2>                   
                         <div class="border-t border-gray-200 md:gap-16 dark:border-gray-700 pt-8">
                         <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
                             <li class="mb-10 ml-6">            
@@ -174,7 +174,6 @@
                         </span>
                         <p class="text-gray-500 dark:text-gray-400">The <a href="https://compphil.github.io/truth/" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">conceptual framework</a> of the agenda has been thoroughly fleshed out. The primary focus is currently on devising a novel pipeline for evaluating debates that fills in the gaps of a <a href="https://compphil.github.io/truth/#argrank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">previous naive one</a> (e.g. utterance decomposition, use of latent knowledge in argument graph construction). In addition, a secondary focus is placed on bridging the theory-practice gap for <a href="https://compphil.github.io/truth/#bounded-defensibility" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">quantifying defensibility</a>. More pragmatically, a <a href="https://docs.google.com/document/d/1BLpAMmrhkl3EQY18AFX5rBIwNRBX4HMOggEz-oZPlpE/edit?usp=sharing" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">proposal</a> is underway for hosting a number of related projects at AI Safety Camp 9.</p>
                     </div>
-
                     <div class="border-t-0 border-gray-200 md:gap-16 dark:border-gray-700 pt-8">
                     <div>
                     <div id="accordion-collapse" data-accordion="collapse">
@@ -222,7 +221,7 @@
                         </div>
                         </div>
                         <h2 id="accordion-collapse-heading-4">
-                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
                                 <span>How can progress towards defensibility maximization be measured?</span>
                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -230,8 +229,23 @@
                             </button>
                             </h2>
                         <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
-                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                        <div class="p-5 border border-b-0 dark:border-gray-700">
                             <p class="text-gray-500 dark:text-gray-400">Feedback loops are an important part of alignment research. Ultimately, architectures implementing defensibility maximization can directly be evaluated against existing benchmarks. For instance, classification tasks can be tackled through debates between parties associated with classes. Alternatively, regression tasks can be tackled by having two debating opponents produce final standings as outputs. The ETHICS benchmark in particular currently provides an orienting "North Star" for the agenda.</p>
+                        </div>
+                        </div>
+                        <h2 id="accordion-collapse-heading-5">
+                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+                                <span>How does defensibility maximization address deception?</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                            </button>
+                            </h2>
+                        <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">In the context of debate, deception can refer to several different things. First, a party engaged in debate might outright lie (i.e. put forth a statement they have low credence in). Second, a party might make a case that is subtly misleading in aggregate, whether lying or not.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">As a colorful example, consider a suspect who asked an accomplice to kill a victim on their behalf. Should the suspect claim that they did not kill the victim, then they would be misleading, but not lying. Should the suspect claim that they did not even ask the accomplice to kill the victim on their behalf, then they would be lying, but not misleading.</p>
+                            <p class="text-gray-500 dark:text-gray-400">The agenda tackles the challenge of lying through epistemic interpretability, the ability to accurately asses a party's credence in their statements. As for misleading, the agenda addresses it through the very notion of defensibility. Misleading requires computationally costly mental gymnastics, especially in a sustained interaction with adversaries. The suspect would need a disproportionately resourceful lawyer to make up for the inherent vulnerability of their position. Defensibility is not about weighing the conflicting cases against each other post-hoc, but rather about quantifying the very resources required to construct these.</p>
                         </div>
                         </div>
                     </div>
@@ -241,17 +255,45 @@
         </div>
     </section>
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <div class="max-w-screen-md">
-                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Contributing</h2>
-                <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Defensibility maximization presents a number of unique challenges at the intersection of machine learning and epistemology. Get involved and contribute to the development of AI systems that act in morally defensible ways by design.</p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <a href="https://calendly.com/paulbricman/short-call" class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                        Book a call
-                    </a>
-                    <a href="https://www.admonymous.co/paulbricman" class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                        Share feedback
-                    </a>  
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-20 lg:px-6">
+            <div class="grid text-left md:grid-cols-2 gap-12">
+                <div class="max-w-screen-md">
+                    <h2 class="pt-5 mb-4 text-2xl font-medium text-gray-900 dark:text-white">Get involved</h2>
+                    <p class="mb-8 text-base font-normal text-gray-500 dark:text-gray-400">Defensibility maximization presents a number of unique challenges at the intersection of machine learning and epistemology. Get involved and contribute to the development of AI systems that act in morally defensible ways by design.</p>
+                    <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <a href="https://calendly.com/paulbricman/short-call" class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                            Book a call
+                        </a>
+                        <a href="https://www.admonymous.co/paulbricman" class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                            Share feedback
+                        </a>  
+                    </div>
+                </div>
+                <div class="block p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                    <span class="flex items-center text-2xl font-medium text-gray-900 dark:text-white mb-4">
+                        <p>Reading Guide</p>
+                    </span>
+                    <p class="mb-4 text-gray-500 dark:text-gray-400">A curated list of background materials meant to help you get up to speed with the latest challenges of the agenda in the span of a few hours.</p>
+                    <ul class="space-y-4 text-left text-gray-500 dark:text-gray-400">
+                        <li class="flex items-center space-x-5">
+                             <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                             </svg>
+                            <span>The first volume of <a href="https://compphil.github.io/" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Elements of Computational Philosophy</a> describes the conceptual framework and theoretical formalism of defensibility maximization in detail. Additionally, <a href="https://www.goodreads.com/book/show/55475236-the-dialogical-roots-of-deduction" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">The Dialogical Roots of Deduction</a> echoes much of the agenda's philosophy.</span>
+                        </li>
+                        <li class="flex items-center space-x-5">
+                            <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                             </svg>
+                            <span>Aspiring researchers interested in empirical work might consider the following parts of the <a href="https://docs.google.com/document/d/1Z1mQ47FqzNBzNvalWgSnyGph7A4Q7MndOEqsqv_mto0/edit" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Ought Machine Learning Reading List</a>: Reasoning & Decomposition, AI Safety, Interpretability & Model Editing, Reinforcement Learning.</span>
+                        </li>
+                        <li class="flex items-center space-x-5">
+                            <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                             </svg>
+                             <span>Aspiring researchers interested in more theoretical work might consider the following chapters of <a href="https://link.springer.com/referencework/10.1007/978-90-481-9473-5" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Handbook of Argumentation Theory</a>: Argumentation Theory, The New Rhetoric, Formal Dialectical Approaches, Argumentation & Artificial Intelligence.</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
